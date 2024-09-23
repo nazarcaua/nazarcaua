@@ -5,7 +5,7 @@
 <h2>Nazar's HTML</h2>
 <p>Here are some links:</p>
 
-<a href="planets.html" title="Planets">This is a link to the planets table.</a>
+<a href="planets.html">This is a link to the planets table.</a>
 
 </body>
 </html>
