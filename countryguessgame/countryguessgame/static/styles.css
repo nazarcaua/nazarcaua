@@ -1,0 +1,146 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: #ADD8E6;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: #006b79;
+    color: white;
+    padding: 20px;
+    font-size: 26px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logout-container {
+    position: fixed;
+    top: 7px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.logout-btn {
+    background-color: #FFD700;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logout-btn:hover {
+    background-color: #E6BE00;
+}
+
+.container {
+    margin-top: 100px;
+    padding: 40px;
+    background: white;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    width: 90%;
+    max-width: 400px;
+    margin: 100px auto;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input, button {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+button {
+    background: #FFD700;
+    color: black;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #E6BE00;
+}
+
+a {
+    display: block;
+    margin-top: 20px;
+    color: #006b79;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.main-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px);
+}
+
+.button-box {
+    background: white;
+    width: 700px;
+    max-width: 90%;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-placeholder {
+    width: 100%;
+    height: 200px;
+    background: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #555;
+    border-radius: 8px;
+}
+
+.big-button {
+    width: 250px;
+    padding: 15px;
+    margin: 15px;
+    font-size: 18px;
+    background: #FFD700;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+.big-button:hover {
+    background: #E6BE00;
+}

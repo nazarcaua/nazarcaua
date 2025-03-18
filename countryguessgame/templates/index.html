@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Country Guessing Game</title>
+    <script>
+        async function submitGuess() {
+            let guess = document.getElementById("guess").value;
+            let response = await fetch(`/guess/?guess=${guess}`);
+            let data = await response.json();
+            document.getElementById("result").innerText = data.correct ? "Correct!" : "Wrong!";
+        }
+    </script>
+</head>
+<body>
+    <h1>Guess the Country</h1>
+    <input type="text" id="guess" placeholder="Enter country name">
+    <button onclick="submitGuess()">Submit</button>
+    <p id="result"></p>
+</body>
+</html>
